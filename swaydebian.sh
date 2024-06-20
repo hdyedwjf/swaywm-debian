@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt install sway swaylock firefox-esr tlp fonts-wqy-zenhei thunar xarchiver thunar-archive-plugin flatpak xfce4-terminal \
-pipewire alsa-utils ufw wofi gvfs-fuse gvfs-backends gammastep mousepad
+pipewire alsa-utils ufw wofi gvfs-fuse gvfs-backends gammastep mousepad sway-notification-center
 systemctl enable tlp
 sudo ufw enable
 mkdir ~/.config/sway
