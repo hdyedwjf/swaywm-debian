@@ -2,4 +2,10 @@
 
 sudo apt update
 sudo apt install sway swaylock firefox-esr tlp fonts-wqy-zenhei thunar xarchiver thunar-archive-plugin flatpak xfce4-terminal \
-pipewire alsa-utils fcitx5-chinese-addons fcitx5 mpv gammastep
+pipewire alsa-utils ufw wofi gvfs-fuse gvfs-backends gammastep mousepad
+systemctl enable tlp
+sudo ufw enable
+mkdir ~/.config/sway
+mkdir ~/.config/gammastep
+cp ~/swaywm-debian/config ~/.config/sway
+cp ~/swaywm-debian/config.ini ~/.config/gammastep
